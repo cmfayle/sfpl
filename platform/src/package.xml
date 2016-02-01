@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PlatformMainPage</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>RestApiPlatform</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>DT_0_0_Object__c</members>
+        <members>DT_1_0_Object__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>webapp</members>
+        <name>StaticResource</name>
+    </types>
+    <version>35.0</version>
+</Package>
