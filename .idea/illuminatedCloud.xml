@@ -6,13 +6,30 @@
         <IlluminatedCloudConnection>
           <option name="buildSuccessDatesBySourceRootRelativePath">
             <map>
-              <entry key="OBJECTS/DT_1_1_OBJECT__C.OBJECT" value="1454104964000" />
+              <entry key="CONNECTEDAPPS/RESTAPIPLATFORM.CONNECTEDAPP" value="1454298774000" />
+              <entry key="OBJECTS/DT_0_0_OBJECT__C.OBJECT" value="1454298774000" />
+              <entry key="OBJECTS/DT_1_0_OBJECT__C.OBJECT" value="1454298774000" />
+              <entry key="OBJECTS/DT_1_1_OBJECT__C.OBJECT" value="1454298774000" />
+              <entry key="OBJECTS/DT_1_2_OBJECT__C.OBJECT" value="1454298774000" />
+              <entry key="PAGES/PLATFORMMAINPAGE.PAGE" value="1454298774000" />
+              <entry key="STATICRESOURCES/WEBAPP.RESOURCE" value="1454298774000" />
             </map>
           </option>
           <option name="defaultModuleName" value="platform" />
-          <option name="lastBuildScope" value="SELECTED" />
+          <option name="lastBuildScope" value="CUSTOM" />
+          <option name="lastCustomSelectionUrls">
+            <set>
+              <option value="file://$PROJECT_DIR$/platform/src/connectedApps/RestApiPlatform.connectedApp" />
+              <option value="file://$PROJECT_DIR$/platform/src/objects/DT_0_0_Object__c.object" />
+              <option value="file://$PROJECT_DIR$/platform/src/objects/DT_1_0_Object__c.object" />
+              <option value="file://$PROJECT_DIR$/platform/src/objects/DT_1_1_Object__c.object" />
+              <option value="file://$PROJECT_DIR$/platform/src/objects/DT_1_2_Object__c.object" />
+              <option value="file://$PROJECT_DIR$/platform/src/pages/PlatformMainPage.page" />
+              <option value="file://$PROJECT_DIR$/platform/src/staticresources/webapp" />
+            </set>
+          </option>
           <option name="name" value="cmfayle@gmail.com Development" />
-          <option name="offlineSymbolTableGenerationDate" value="1454104900875" />
+          <option name="offlineSymbolTableGenerationDate" value="1454334255576" />
           <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/cmfayle_gmail_com_Development/OfflineSymbolTable.zip" />
           <option name="organizationType" value="DEVELOPMENT" />
           <option name="password" value="dfecdf9cdf8fdfc9dfefdf9fdfc7df92dfde" />
