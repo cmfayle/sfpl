@@ -23,6 +23,122 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="CPQBundleSelect" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQBundleSelectTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQDisplayGeneratorController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQDisplayGeneratorControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQPDFGeneratorController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQPDFGeneratorControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQRedirect" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQRedirectTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQSectionController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQSectionControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplSectionController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplateBuilder_UnitTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQUtility" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQUtilityTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizardController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizardControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_BundleBuilder" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_BundleBuilderTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_ProductList" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_ProductListTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_QuoteVersions" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_QuoteVersionsTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_DPSCostsPerPayrollExtension" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_DPSCostsPerPayrollExtensionTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChangePasswordController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChangePasswordControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DataTableController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPasswordController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPasswordControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="HelloWorld" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -50,6 +166,30 @@
                             <option name="name" value="MyHelloWorld" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="MyProfilePageController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="MyProfilePageControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLoginController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLoginControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegisterController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegisterControllerTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="TestDeleteRestrictInvoice" />
                           </MetadataEntry>
                         </list>
@@ -58,35 +198,246 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="CPQBundleSelect" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_CHATTER" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_DPSCostsPerPayroll" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_DPSStaticContent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_DPSStaticServices" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_FOOTER" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_FOOTERIMAGE" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_FullPageImage" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_HEADER" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_HEADERIMAGE" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_IMAGE" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_RECORDDATA" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_RELATEDLIST" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_SKINNYTEXT" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_WIDETEXT" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteFooter" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteHeader" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLogin" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SitePoweredBy" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="ApexComponent" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="AccountsPage" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="AnswersHome" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="BackupPage" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="BandwidthExceeded" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQDisplayGenerator" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQLanding" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQPDFGenerator" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplSection" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizard1" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizard2" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizard3" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizard4" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizard6" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_BundleBuilder" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_ProductList" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_QuoteVersions" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ChangePassword" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ContactEdit" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CountSheet" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Exception" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="FileNotFound" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPassword" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ForgotPasswordConfirm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="IdeasHome" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="InMaintenance" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="MyProfilePage" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="OpportunityViewRedirect" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="PlatformMainPage" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="QuoteViewRedirect" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteLogin" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegister" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteRegisterConfirm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteTemplate" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="StandardObjectList" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="StdExceptionTemplate" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="TabbedAccount" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Unauthorized" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="UnderConstruction" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexPage" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -228,7 +579,6 @@
                         </list>
                       </option>
                       <option name="name" value="ConnectedApp" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CorsWhitelistOrigin" />
@@ -317,6 +667,36 @@
                             <option name="name" value="Book__c.Price__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c.CPQ_PDF_Template__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c.DataStore__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c.DisplayOrder__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c.IsVisible__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c.SectionType__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c.IsActive__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c.IsDefault__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c.Location__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c.Opp_RT_Developer_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_PDF_Generator_Configuration__c.Auto_Attach_to_Opportunity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Case.EngineeringReqNumber__c" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -360,6 +740,36 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DT_1_0_Object__c.DT_1_0_Field_D__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c.DT_0_0_Object__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c.DT_1_1_Field_A__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c.DT_1_1_Field_B__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c.DT_1_1_Field_C__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c.DT_1_1_Field_D__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c.DT_0_0_Object__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c.DT_1_2_Field_A__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c.DT_1_2_Field_B__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c.DT_1_2_Field_C__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c.DT_1_2_Field_D__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Goal.OrigGoalId__c" />
@@ -410,19 +820,91 @@
                             <option name="name" value="Metric.OrigMetricId__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Opportunity.Annualized_Cost__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Opportunity.CurrentGenerators__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Deal_Type__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.DeliveryInstallationStatus__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Opportunity.Go_Live_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Include_Descriptions__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Opportunity.MainCompetitors__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Number_of_Pays__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.OrderNumber__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Opportunity.Pay_Frequency__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Per_Payroll_Roll_up__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Opportunity.TrackingNumber__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="OpportunityLineItem.Annualized_Total__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="OpportunityLineItem.Display_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="OpportunityLineItem.Per_Payroll_Cost__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="OpportunityLineItem.Sort_Index__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Category__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Frequency__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Per_Payroll_Cost__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.Active__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.Add_By_Default__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.Category__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.Parent__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Junction__c.Bundle__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Junction__c.Product__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="User.VNET_Force_Password_Reset__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="User.VNET_Password_Hash__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="User.VNET_User_Status__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="User.VNET_User_Type__c" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -438,11 +920,11 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="CustomLabels" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="CustomLabels" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CustomMetadata" />
@@ -468,6 +950,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Book__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_PDF_Generator_Configuration__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Campaign" />
@@ -502,6 +996,14 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DT_1_0_Object__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -551,6 +1053,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="OpportunityCompetitor" />
@@ -580,6 +1083,20 @@
                             <option name="name" value="Product2" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Junction__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="QuoteLineItem" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Site" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -596,6 +1113,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="UserProvisioningRequest" />
@@ -615,10 +1133,25 @@
                             <option name="name" value="Book__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_PDF_Generator_Configuration__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="DT_0_0_Object__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DT_1_0_Object__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Invoice__c-en_US" />
@@ -628,6 +1161,12 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Merchandise__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Junction__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User__c-en_US" />
@@ -646,6 +1185,13 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="sfpl" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="CustomSite" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -684,6 +1230,18 @@
                           <MetadataEntry>
                             <option name="folder" value="true" />
                             <option name="name" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CustomerPortalChangePwdEmail" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CustomerPortalNewUserEmail" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/CustomerPortalSelfRegUserEmail" />
+                            <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="unfiled$public/MarketingProductInquiryResponse" />
@@ -769,8 +1327,23 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c.SectionWizardDisplay" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.CPQ_Display_Fields" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote.cpq_display_fields" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="FieldSet" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="FlexiPage" />
@@ -856,6 +1429,18 @@
                             <option name="name" value="Book__c-Book Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c-CPQ PDF Template Section Layout" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c-CPQ PDF Template Layout" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c-CPQ Test Layout" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Campaign-Campaign Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -899,6 +1484,12 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DT_1_0_Object__c-DT_1_0 Object Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c-DT_1_1 Object Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c-DT_1_2 Object Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DandBCompany-D%26B Company Layout" />
@@ -973,6 +1564,20 @@
                             <option name="name" value="Product2-Product Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c-Product Bundle Layout" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Junction__c-Product Junction Layout" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote-Quote Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="QuoteLineItem-Quote Line Item Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="SocialPersona-Social Persona Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1034,6 +1639,14 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Asset.AllAssets" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c.All" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c.All" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Campaign.AllActiveCampaigns" />
@@ -1153,6 +1766,18 @@
                             <option name="name" value="Product2.AllProducts" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.Active_Bundles" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.All" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.All1" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Solution.AllReviewedSolutions" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1248,6 +1873,17 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Customer Portal" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="Portal" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
                       <option name="name" value="PostTemplate" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -1312,6 +1948,9 @@
                             <option name="name" value="Gold Partner User" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Guest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="HighVolumePortal" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1334,6 +1973,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ReadOnly" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SalesForce Platform Application Profile" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Silver Partner User" />
@@ -1435,14 +2077,23 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Metric.Completion" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Metric.Progress" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.Delete_Me" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c.Parent" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="RecordType" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -1653,6 +2304,12 @@
                             <option name="name" value="Book__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_PDF_Generator_Configuration__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Campaign" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1680,6 +2337,12 @@
                             <option name="name" value="Order" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Junction__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="User" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1702,7 +2365,36 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="CPQImages" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQWizard" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_DPSCostsPerPayroll" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_TS_HeaderImageFooterImage" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DPSStaticContent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ProposalImages" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteSamples" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="styles" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="webapp" />
@@ -1711,7 +2403,6 @@
                         </list>
                       </option>
                       <option name="name" value="StaticResource" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="SynonymDictionary" />
@@ -1771,6 +2462,15 @@
                             <option name="name" value="Book__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="CPQTemplateSection__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQTemplate__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ_PDF_Generator_Configuration__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Campaign" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1790,6 +2490,12 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DT_1_0_Object__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_1_Object__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="DT_1_2_Object__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DandBCompany" />
@@ -1847,6 +2553,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Product2" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Bundle__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product_Junction__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="QuoteLineItem" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Site" />
@@ -1937,6 +2655,7 @@
             </option>
           </ModuleContents>
         </option>
+        <option name="packageName" value="" />
       </configuration>
     </facet>
   </component>

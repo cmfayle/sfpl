@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Additional_Memory__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Memory?</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Additional_hard_drive_Enter_quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional hard drive? Enter quantity</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Alt_Site_Contact_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Alt. Site Contact Phone</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DMS_Cosmic_Record_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>DMS/Cosmic Record Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DMS_or_Cosmic_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>DMS or Cosmic Image?</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DP_to_DVI_adaptor_Enter_quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>DP to DVI adaptor? Enter quantity</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deployment_Mgr__c</fullName>
+        <externalId>false</externalId>
+        <label>Deployment Mgr.</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Depot_Report_VNet_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Depot Report VNet Order</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Reports To Depots</relationshipLabel>
+        <relationshipName>Reports_To_Depots</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Docking_station_Enter_quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Docking station? Enter quantity</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Domain__c</fullName>
+        <externalId>false</externalId>
+        <label>Domain</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EUC_Coordinator_PM_Email__c</fullName>
+        <defaultValue>&quot;wfdigitalsignage@wellsfargo.com&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>EUC Coordinator/PM: Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Equipment_Order_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Requested_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Equipment Order Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Equipment_Order_SR__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;SR-&quot; &amp;  Depot_Report_VNet_Order__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Equipment Order SR#</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoice_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Number</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Keyboard_Enter_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyboard? Enter Quantity</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LAN_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>LAN ID</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Laptop_Desktop_Accessories__c</fullName>
+        <externalId>false</externalId>
+        <label>Laptop / Desktop / Accessories</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Line_of_Business__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Depot_Report_VNet_Order__r.LOB__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Line of Business</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location_of_Computer_Cube__c</fullName>
+        <externalId>false</externalId>
+        <label>Location of Computer (Cube #)</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machine_OU__c</fullName>
+        <externalId>false</externalId>
+        <label>Machine OU</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manual_Apps_Package_Included__c</fullName>
+        <externalId>false</externalId>
+        <label>Manual Apps (Package Included)</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_Project_SR__c</fullName>
+        <externalId>false</externalId>
+        <label>Master Project SR #</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Migration_Coordinator_DMS_Record_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Migration Coordinator DMS Record Contact</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Monitor_Enter_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Monitor? Enter Quantity</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mouse_Enter_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Mouse? Enter Quantity</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Old_Computer_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Old Computer Name</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Old_Serial__c</fullName>
+        <externalId>false</externalId>
+        <label>Old Serial #</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_AU__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Depot_Billing_AU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner AU</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PC_Model__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Depot_Report_VNet_Order__r.Depot_PC_Model__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PC Model</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PO_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>PO Number</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Player_Code_Depot__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Player_Code_Depot__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Player Code - Depot</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Requested_Delivery_Date_Depot__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Requested Delivery Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Shipping_Method__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Depot_Report_VNet_Order__r.Depot_Shipping_Method__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Requested Shipping Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Residential_Y_N__c</fullName>
+        <externalId>false</externalId>
+        <label>Residential Y/N</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Ship_Contact_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Ship_Contact_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ship Contact Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Account.ShippingStreet</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ship To: Address</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_City__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Account.ShippingCity</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ship To:City</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_MAC_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship To:MAC Code</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Account.Phone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ship To:Phone Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_ST__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Account.ShippingState</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ship To:ST</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Zip__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Account.ShippingPostalCode</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ship To:Zip</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_AU__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Depot_Billing_AU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping AU</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Special_Instructions_ISO__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Instructions (ISO)</label>
+        <length>35</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stamp_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Stamp ID</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Memory_Gb_Enter_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Memory (Gb) Enter Amount</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_AU__c</fullName>
+        <externalId>false</externalId>
+        <formula>Depot_Report_VNet_Order__r.Depot_Billing_AU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User AU</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WFDC_version__c</fullName>
+        <externalId>false</externalId>
+        <label>WFDC version #</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Win7_Readiness_verified_Y_N__c</fullName>
+        <externalId>false</externalId>
+        <label>Win7 Readiness verified Y/N</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Report To Depot</label>
+    <nameField>
+        <label>Report To Depot Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Reports To Depots</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

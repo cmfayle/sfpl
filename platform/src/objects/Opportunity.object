@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>New_Awesome_Companct_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>New_Awesome_Companct_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountId</fields>
+        <fields>CloseDate</fields>
+        <fields>Amount</fields>
+        <fields>OwnerId</fields>
+        <label>New Awesome Compact Layout</label>
+    </compactLayouts>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <fieldSets>
+        <fullName>CPQ_Display_Fields</fullName>
+        <description>Fields from the opportunity object to display on the CPQ form page</description>
+        <displayedFields>
+            <field>AccountId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CloseDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>StageName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Go_Live_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HasOpportunityLineItem</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Deal_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Pay_Frequency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CPQ Display Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Additional_Information__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Information</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Annualized_Cost__c</fullName>
+        <externalId>false</externalId>
+        <formula>Per_Payroll_Roll_up__c *  Number_of_Pays__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Annualized Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Number_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Number Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>PO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CPG Project</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Budget_Confirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Budget Confirmed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPG_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>CPG Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.Type_of_Contact__c</field>
+                <operation>equals</operation>
+                <value>CPG Property Manager</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>VNet_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CPG_Project_Manager_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>CPG_Contact__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CPG Project Manager Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPG_Project_Manager_Phone__c</fullName>
+        <externalId>false</externalId>
+        <formula>CPG_Contact__r.Phone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CPG Project Manager Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPG_Project_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>CPG Project Manager</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Opportunities (CPG Project Manager)</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cat_5_Cable_Complete_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Cat 5 Cable Complete Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Completed_Install__c</fullName>
+        <description>Date completed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date completed</inlineHelpText>
+        <label>Completed Install</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Construction_Complete_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Construction Complete Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DENOVO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DENOVO</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Deal_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  Annualized_Cost__c   &gt; 10000, &quot;Whale&quot;,
+ IF( Annualized_Cost__c  &gt; 3000, &quot;Butter Stick&quot;,
+  IF( Annualized_Cost__c   &gt;=  1, &quot;Cup Filler&quot;, &quot; &quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>DPS opportunity type based on amount.</inlineHelpText>
+        <label>Deal Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Depot_Billing_AU__c</fullName>
+        <description>Billing AU for Depot orders, on Depot report = Owner AU, Shipping AU, User AU</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Billing AU for Depot orders, on Depot report = Owner AU, Shipping AU, User AU</inlineHelpText>
+        <label>Depot Billing AU</label>
+        <length>7</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Depot_PC_Model__c</fullName>
+        <description>Player model being used or requested from Depot, majority are NUC or OPS, sometimes there are special players = Other</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Player model being used or requested from Depot, majority are NUC or OPS, sometimes there are special players = Other</inlineHelpText>
+        <label>Depot PC Model</label>
+        <picklist>
+            <picklistValues>
+                <fullName>NUC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OPS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Depot_Requestor__c</fullName>
+        <externalId>false</externalId>
+        <label>Depot Requestor</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Rachael Thomley</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chuck Lampe</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dominic DeSieno</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Donita Witte</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Frank Petriella</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Depot_Shipping_Method__c</fullName>
+        <description>Shipping method for Depot players shipping</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shipping method for Depot players shipping</inlineHelpText>
+        <label>Depot Shipping Method</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Ground</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Next Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Discovery_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Discovery Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Electrical_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Electrical Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Electrical_WO__c</fullName>
+        <externalId>false</externalId>
+        <label>Electrical WO#</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Equipment_Order_Date_Depot__c</fullName>
+        <description>Equipment order date for orders to Depot (for players)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Equipment order date for orders to Depot (for players)</inlineHelpText>
+        <label>Equipment Order Date - Depot</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Equipment_Shipped_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Equipment Shipped Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>General_Contractor_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>General Contractor Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>General_Contractor_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>General Contractor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>General_Contractor_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>General Contractor Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Go_Live_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select clients go live date.</inlineHelpText>
+        <label>Go Live Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grand_Opening_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Grand Opening Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Include_Descriptions__c</fullName>
+        <description>Determines sections which appear in the &quot;Service Descriptions&quot; section on a generated pdf for this opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines sections which appear in the &quot;Service Descriptions&quot; section on a generated pdf for this opportunity.</inlineHelpText>
+        <label>Include Descriptions</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Benefits Administration</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carrier Feeds</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Newton</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Time and Attendance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>LOB__c</fullName>
+        <externalId>false</externalId>
+        <label>LOB</label>
+        <picklist>
+            <picklistValues>
+                <fullName>WMG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PCG – Wells Fargo Advisors</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WFS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CFS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Commercial Banking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Retail Store</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Regional Banking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Community Banking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wealth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Banking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Foreign Exchange</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lockbox</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Corporate Finance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WBS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WFHM Mortgage</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WF Insurance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wholesale</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WFCC Customer Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Corp. Properties Group (CPG)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IFS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RCBO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Retirement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TOG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fraud</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>General Banking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Private Banking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Direct</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IBCM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WDS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Admin</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Google AdWords</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Loss_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Loss Reason</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No Budget / Lost Funding</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No Decision / Non-Responsive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MAC_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>MAC Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Name_Vendor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Name Vendor</label>
+        <referenceTo>Vendors__c</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Number_of_Pays__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL( Pay_Frequency__c , &quot;Weekly&quot;) , 52, 
+      IF(  ISPICKVAL( Pay_Frequency__c , &quot;Bi-Weekly&quot;)  , 26, 
+            IF( ISPICKVAL( Pay_Frequency__c , &quot;Monthly&quot;) , 12, 
+                  IF( ISPICKVAL( Pay_Frequency__c , &quot;Semi-Monthly&quot;) , 24, NULL))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of Pays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Onsite_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Onsite Contact Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Onsite_Contact_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Onsite Contact Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Onsite_Contact_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Onsite Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Order_Identifier__c</fullName>
+        <externalId>false</externalId>
+        <formula>Order__c  &amp; &quot;-&quot; &amp;  Account.ShippingState &amp; &quot;-&quot;&amp; Account.BE__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order Identifier</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <displayFormat>{YYYY}{MM}{DD}-{000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Order #</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pay_Frequency__c</fullName>
+        <description>Prospect or Client&apos;s payroll frequency.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Prospect or Client&apos;s payroll frequency.</inlineHelpText>
+        <label>Pay Frequency</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bi-Weekly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Semi-Monthly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Per_Payroll_Roll_up__c</fullName>
+        <externalId>false</externalId>
+        <label>Per Payroll Cost</label>
+        <summarizedField>OpportunityLineItem.TotalPrice</summarizedField>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Per_Payroll_Cost__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Player_Code_Depot__c</fullName>
+        <description>Special identification of player: LOB, AVL, monitor ID, placement information, identification to help match player with a monitor.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Special identification of player: LOB, AVL, monitor ID, placement information, identification to help match player with a monitor.</inlineHelpText>
+        <label>Player Code - Depot</label>
+        <length>35</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Player_Install_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Player Install Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Player_Installed__c</fullName>
+        <externalId>false</externalId>
+        <label>Player # Installed</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Player_Tracking__c</fullName>
+        <externalId>false</externalId>
+        <label>Player Tracking #</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ROI_Analysis_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ROI Analysis Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ready_for_Installation__c</fullName>
+        <description>VNet or vendor can use this field to flag that site is ready for installation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>VNet or vendor can use this field to flag that site is ready for installation. Cat 5 has been run or IT port is active, etc.</inlineHelpText>
+        <label>Ready for Installation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Refresh</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Relocation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Relocation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Remodel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Remodel</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Request_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Project__r.Request_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Request Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Delivery_Date_Depot__c</fullName>
+        <description>Requested delivery date for Depot to ship player</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Requested delivery date for Depot to ship player</inlineHelpText>
+        <label>Requested Delivery Date - Depot</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Return_Player_Tracking__c</fullName>
+        <externalId>false</externalId>
+        <label>Return Player Tracking #</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Return_Scheduled_Date_If_Needed__c</fullName>
+        <externalId>false</externalId>
+        <label>Return Scheduled Date (If Needed)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scheduled_Install_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheduled Install Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scheduled_Site_Survey_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheduled Site Survey Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SharePoint_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>SharePoint Order #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_Contact_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship Contact Name</label>
+        <length>35</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship To City</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship To State</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Alabama</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Alaska</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arizona</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arkansas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>California</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colorado</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Connecticut</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delaware</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>District of Columbia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Florida</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Georgia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hawaii</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Idaho</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Illinois</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Indiana</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Iowa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kansas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kentucky</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Louisiana</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maryland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Massachusetts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Michigan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Minnesota</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mississippi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Montana</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nebraska</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nevada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Hampshire</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Jersey</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Mexico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New York</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>North Carolina</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>North Dakota</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ohio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oklahoma</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oregon</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pennsylvania</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rhode Island</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Carolina</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Dakota</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tennessee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Texas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Utah</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vermont</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Virginia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Washington</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wisconsin</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wyoming</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Missouri</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>West Virginia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Street_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship To Street Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Zip_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship To Zip/Postal Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship To</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Ship to Store/Site</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ship to SubContractor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ship to Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Method_Requested__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Method Requested</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Ground</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Next Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Site_AU__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Primary_Au__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Site AU</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Special_Instructions_ISO__c</fullName>
+        <description>For Depot Report only - information to be written on sticker on outside of player box for tech to know where to install.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Depot Report only - information to be written on sticker on outside of player box for tech to know where to install.</inlineHelpText>
+        <label>Special Instructions (ISO)</label>
+        <length>35</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Service Requested</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quote Requested</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Survey Requested For A Quote</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quote Submitted</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quote Approved</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Order Submitted</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Change Order</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Order Completed</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Order Cancelled</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Invoice Submitted</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Invoice Rejected</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Invoice Approved</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Replacement Player Requested</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Replacement Player Sent</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vendor Order In Process</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Complete and Invoice Approved</fullName>
+                <closed>true</closed>
+                <default>false</default>
+                <forecastCategory>Closed</forecastCategory>
+                <probability>100</probability>
+                <won>true</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Order Canceled</fullName>
+                <closed>true</closed>
+                <default>false</default>
+                <forecastCategory>Closed</forecastCategory>
+                <probability>100</probability>
+                <won>true</won>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status_Change_Date__c</fullName>
+        <description>Date the status field was changed</description>
+        <externalId>false</externalId>
+        <label>Status Change Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Store_AU__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Store_AU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Store AU</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Existing Business</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Business</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type_of_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Order</label>
+        <picklist>
+            <picklistValues>
+                <fullName>ATM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Denovo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FX</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Help Desk/Service Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Refresh/Remodel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Special</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>VNet_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>VNet Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_Next_Step_Note__c</fullName>
+        <description>Brief note of next step needed on order.</description>
+        <externalId>false</externalId>
+        <label>Vendor Next Step Note</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_Next_Steps_Date__c</fullName>
+        <description>Field to flag date to follow up on an order</description>
+        <externalId>false</externalId>
+        <label>Vendor Next Steps Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_Staff_Assigned__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Staff Assigned</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Marcia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phillip</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ginny</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chris</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kurt</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bryan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jonah</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sonia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_SubContracts__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Vendor SubContracts</label>
+        <referenceTo>Vendors__c</referenceTo>
+        <relationshipLabel>Sub Contractor Orders</relationshipLabel>
+        <relationshipName>Opportunities1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_Work_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Work Order #</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllOpportunities</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.PROBABILITY</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingNextMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>NEXT_MONTH</value>
+        </filters>
+        <label>Closing Next Month</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingThisMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>Closing This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>Default_Opportunity_Pipeline</fullName>
+        <booleanFilter>(1 OR 2)</booleanFilter>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>Opportunity Pipeline</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpportunities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>Won</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.WON</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Won</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupFilterFields>OPPORTUNITY.NAME</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.NAME</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+</CustomObject>

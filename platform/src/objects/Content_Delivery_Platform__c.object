@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>CSG_1__c</fullName>
+        <externalId>false</externalId>
+        <label>CSG 1</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSG_2__c</fullName>
+        <externalId>false</externalId>
+        <label>CSG 2</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSG_3__c</fullName>
+        <externalId>false</externalId>
+        <label>CSG 3</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSG_4__c</fullName>
+        <externalId>false</externalId>
+        <label>CSG 4</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSG_5__c</fullName>
+        <externalId>false</externalId>
+        <label>CSG 5</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSG_6__c</fullName>
+        <externalId>false</externalId>
+        <label>CSG 6</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chinese_Track__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Marketing list of stores with Chinese population.</description>
+        <externalId>false</externalId>
+        <label>Chinese Track</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Commercial_Channels__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Commercial Channels</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Commercial_Package__c</fullName>
+        <externalId>false</externalId>
+        <label>Commercial Package</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Smart Pack &amp; News Finance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AT120 &amp; News Finance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AT120</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AT120 Plus</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AT200 and News &amp; Finance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AT200</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AT250 and News &amp; Finance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AT250</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Essentials (retired)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Preferred (retired)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Ultimate (retired)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Complex_Distribution__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Complex Distribution</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_Customer_Channel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DS Customer Channel</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_Directory_Wayfinding__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DS Directory Wayfinding</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_WFCC_Espanol__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DS WFCC Espanol</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_WF_Internal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Digital Signage Network WF Internal</description>
+        <externalId>false</externalId>
+        <label>DS WF Internal</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_Welcome_Wall_Content__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Welcome Wall - Digital Signage.</description>
+        <externalId>false</externalId>
+        <label>DS Welcome Wall Content</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Equip_Only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Equip Only</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FX__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FX</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>HD</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Head_End__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Head End</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hispanic_Track__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Marketing list of stores with Hispanic population.</description>
+        <externalId>false</externalId>
+        <label>Hispanic Track</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IP_Ready__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IP Ready</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Initial_Service_Install_Date__c</fullName>
+        <description>Date refers to when Service to the site initially started - this is to show the length of service to site, not changes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date refers to when Service to the site initially started - this is to show the length of service to site, not changes.</inlineHelpText>
+        <label>Initial Service Install Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>List_Head_End_Channels__c</fullName>
+        <externalId>false</externalId>
+        <label>List Head End Channels</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Local_Channels__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Local Channels</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MOH_DVD_Loop__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MOH DVD Loop</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MOH_Multi__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MOH Multi</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MOH__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MOH</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mail_Updates_To__c</fullName>
+        <externalId>false</externalId>
+        <label>Mail Updates To</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Music_DVD_Loop__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Music DVD Loop</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Music__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Music</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Receivers__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Receivers</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Out_of_Scope_Status__c</fullName>
+        <description>Used only if Out of Scope is selected in the Status Field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used only if Out of Scope is selected in the Status Field.</inlineHelpText>
+        <label>Out of Scope Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Excessive Cost</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Landlord Denial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No Line of Sight</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Permit Restriction</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Site refused Install</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Zoning Restriction</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Insufficient Employee at Site</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No Install per CPG PM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>PC_Receiver_Card__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PC / Receiver Card</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Receivers_On_Site__c</fullName>
+        <externalId>false</externalId>
+        <formula>Site__r.Dish_Network_Receivers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Receivers On-Site</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SD</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>STM_Enhanced_ATM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>STM/Enhanced ATM</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Screenfeed_LGBT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Screenfeed LGBT</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Screenfeed_Local__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Screenfeed Local</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Screenfeed_National__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Screenfeed National</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Screenfeed_Spanish__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Screenfeed Spanish</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Servicing_Vendor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Servicing Vendor</label>
+        <referenceTo>Vendors__c</referenceTo>
+        <relationshipLabel>Content Delivery Platforms</relationshipLabel>
+        <relationshipName>Content_Delivery_Platforms</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Site__c</fullName>
+        <externalId>false</externalId>
+        <label>Site</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Content Delivery Platforms</relationshipLabel>
+        <relationshipName>Content_Delivery_Platforms</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ordered / Pending</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Stocks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Stocks</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Student_Track__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Student Track</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sustainability__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>LEED certified information.</description>
+        <externalId>false</externalId>
+        <label>Sustainability</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TV_Monitor_Only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TV/Monitor Only</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Team_TV__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Team TV</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WFA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WFA</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WFCC_DVD_Loop__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WFCC DVD Loop</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WFCC_Espanol__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WFCC (Espanol)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WFCC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WFCC</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Content Delivery Platform</label>
+    <nameField>
+        <label>Content Delivery Platform</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Content Delivery Platforms</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Digital_Signage</fullName>
+        <active>true</active>
+        <label>Digital Signage</label>
+        <picklistValues>
+            <picklist>Commercial_Package__c</picklist>
+            <values>
+                <fullName>AT120</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT120 %26 News Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT120 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT200 and News %26 Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT250</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT250 and News %26 Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Essentials %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Preferred %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Ultimate %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Smart Pack %26 News Finance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Out_of_Scope_Status__c</picklist>
+            <values>
+                <fullName>Excessive Cost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient Employee at Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landlord Denial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install per CPG PM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Line of Sight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit Restriction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site refused Install</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zoning Restriction</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ordered %2F Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Media_Services</fullName>
+        <active>true</active>
+        <label>Media Services</label>
+        <picklistValues>
+            <picklist>Commercial_Package__c</picklist>
+            <values>
+                <fullName>AT120</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT120 %26 News Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT120 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT200 and News %26 Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT250</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT250 and News %26 Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Essentials %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Preferred %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Ultimate %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Smart Pack %26 News Finance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Out_of_Scope_Status__c</picklist>
+            <values>
+                <fullName>Excessive Cost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient Employee at Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landlord Denial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install per CPG PM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Line of Sight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit Restriction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site refused Install</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zoning Restriction</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ordered %2F Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Satellite</fullName>
+        <active>true</active>
+        <label>Satellite</label>
+        <picklistValues>
+            <picklist>Commercial_Package__c</picklist>
+            <values>
+                <fullName>AT120</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT120 %26 News Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT120 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT200 and News %26 Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT250</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AT250 and News %26 Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Essentials %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Preferred %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Ultimate %28retired%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Smart Pack %26 News Finance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Out_of_Scope_Status__c</picklist>
+            <values>
+                <fullName>Excessive Cost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient Employee at Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landlord Denial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install per CPG PM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Line of Sight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit Restriction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site refused Install</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zoning Restriction</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ordered %2F Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

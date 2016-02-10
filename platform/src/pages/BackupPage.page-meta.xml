@@ -3,7 +3,7 @@
     <apiVersion>35.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>PlatformMainPage</label>
+    <label>BackupPage</label>
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>8</minorNumber>

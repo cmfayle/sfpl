@@ -1,36 +1,27 @@
-<apex:page showHeader="true" sidebar="true" standardController="Account">
-    <apex:form>
-        <apex:sectionHeader title="Platform Test" subtitle="Configuration, Status, and Data"/>
-        <apex:pageBlock title="Configuration">
-            <apex:pageBlockButtons location="top">
-            </apex:pageBlockButtons>
-            <apex:pageBlockSection title="Configuration">
-                User:
-                <p>
-                    FirstName: <b>{!$User.FirstName}</b> LastName: <b>{!$User.LastName}</b>
-                </p>
-            </apex:pageBlockSection>
-        </apex:pageBlock>
-        <apex:pageBlock title="Status">
-            <apex:pageBlockButtons location="top">
-
-            </apex:pageBlockButtons>
-
-            <apex:pageBlockSection title="Dependent Picklists" columns="2">
-                <apex:inputField value="{!account.industry}"/>
-                <apex:inputField value="{!account.Subcategories__c}"/>
-            </apex:pageBlockSection>
-        </apex:pageBlock>
-
-        <apex:pageBlock title="Data: Edit Account: {!Account.Name}">
-            <apex:pageBlockSection title="Account Details" columns="1">
-                <apex:inputField value="{!Account.Name}" taborderhint="4"/>
-                <apex:inputField value="{!Account.Website}" taborderhint="3"/>
-                <apex:inputField value="{!Account.Industry}" taborderhint="2"/>
-                <apex:inputField value="{!Account.AnnualRevenue}" taborderhint="1"/>
-            </apex:pageBlockSection>
-            <apex:commandButton action="{!save}" value="Save New Account Data"/>
-            <apex:detail subject="{!account.ownerId}" relatedList="false" title="false"/>
-        </apex:pageBlock>
-    </apex:form>
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" controller="DataTableController" html-ng-app="PlatformMainPageApp">
+    <head>
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=Edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta charset="UTF-8"/>
+        <title ng-bind="pageTitle"></title>
+        <link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.webapp,'bootstrap/css/bootstrap.min.css')}"/>
+        <link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.webapp,'bootstrap/css/bootstrap-theme.min.css')}"/>
+        <link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.webapp,'font-awesome/css/font-awesome.min.css')}"/>
+        <script type="text/javascript">
+            var app = angular.module('PlatformMainPageApp', []);
+            app.controller('PlatformMainPageController', ['$scope', function($scope) {
+                $scope.fieldA = 'Data Table Field A';
+                $scope.fieldB = 'Data Table Field B';
+                $scope.fieldC = 2;
+                $scope.fieldD = 3;
+            }]);
+        </script>
+    </head>
+    <body ng-controller="PlatformMainPageController">
+        <div class="container" ng-controller="MyController">
+        </div>
+    </body>
+    <script type="text/javascript" src="{!URLFOR($Resource.webapp,'bootstrap/js/bootstrap.min.js')}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.webapp,'jquery/jquery.min.js')}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.webapp,'angular/angular.min.js')}"/>
 </apex:page>
