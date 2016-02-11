@@ -1,0 +1,615 @@
+/* overlay z-index should be greater than guided tour z-Index */
+.overlayBackground {
+    z-Index: 9100;
+}
+
+.overlayDialog {
+    z-Index: 9101;
+}
+
+.bodyDiv .bPageTitle .ptBody .content {
+    max-width: 500px;
+}
+
+.searchSidetabsCell {
+    width: 200px;
+    margin: 0px;
+}
+
+.searchResultsCell {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.searchSidetabsCell a {
+    text-decoration: none;
+    outline: none;
+}
+
+td.searchCenterCell #favoriteWidget {
+    padding-top: 36px;
+}
+
+.sidetabsContainer .moreFewer a,
+.searchAllLink a {
+    color: #015BA7;
+    font-size: 0.92em;
+}
+
+.searchAllLink a {
+    font-weight: bold;
+}
+
+.sidetabsContainer .itemLink a:hover {
+    color: #015BA7;
+    text-decoration: underline;
+}
+
+.sidetabsContainer .subtoggleon a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.sidetabsContainer .subtoggleon a.noresults:hover {
+    color: #7D7D84;
+}
+
+.sidetabsContainer .subtoggleon a.notsearched:hover {
+    color: #222;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.sidetabsContainer {
+    width:200px;
+    margin-left: 0px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Record and Feed toggles */
+div.toggleon, div.toggleoff {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+    
+div.toggleon {
+    vertical-align: middle;
+    color: #333435;
+    font-weight: bold;
+    background-color: #cfeef8;
+}
+
+div.toggleoff {
+    vertical-align: middle;
+    font-weight: normal;
+    background-color: #f7f8f9;
+}
+
+/* object links */
+div.subtoggleon {
+    vertical-align: middle;
+    color: #333435;
+    font-weight: bold;
+    background-color: #c4e7f2;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+} 
+ 
+.sidetabsContainer .toggleon a {
+    text-decoration: none;
+    cursor: default;
+    color: #222;
+}
+
+.sidetabsContainer .feedToggle,
+.sidetabsContainer .recordToggle {
+    margin-bottom: 10px;
+    position: relative;
+    padding: 4px 5px;
+    border: 1px solid #d4dadc;  
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.sidetabsContainer .feedToggle .feedToggleIcon, 
+.sidetabsContainer .recordToggle .recordToggleIcon {
+    width: 16px;
+    height: 16px;
+    float: left;    
+}
+
+.sidetabsContainer .feedToggle .feedToggleIcon img {
+    background: transparent url(/static/170/img/chatter/filters_sprite.png) no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+}
+
+.sidetabsContainer .recordToggle .recordToggleIcon img {
+    background: transparent url(/img/search/search_sidebarv2_recordtoggle.gif) no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+}
+
+.sidetabsContainer .feedToggleLink,  
+.sidetabsContainer .recordToggleLink {
+    width: 175px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 1px;
+}   
+
+.sidetabsContainer .feedToggleLink .feedToggleText,  
+.sidetabsContainer .recordToggleLink .recordToggleText{
+    vertical-align: middle;
+    display: block;
+}   
+
+.sidetabsContainer .leftNavWrapper {
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+}
+
+.sidetabsContainer .leftNavSubHeader {
+    color: #7d7d84;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftNavWrapper .item,
+.moreFewer {
+    padding-left: 5px;
+}
+
+.searchAllLink {	
+    padding-left: 5px;
+    margin-right: 0px;
+    margin-left: 12px;
+    margin-top: 10px;    
+}
+
+.leftNavSubHeader .item {
+    vertical-align: middle;
+    text-transform: uppercase;
+}   
+
+.leftNavSubHeader .sidetabsSearchOptionsEditTop {
+    vertical-align: middle;
+    width: 55px;
+    float: right;    
+    text-align: right;
+}
+
+.leftNavSubHeader .sidetabsSelectedObjectsTop {
+    width: 128px;   
+    float: left;
+}   
+
+#sidetabsSearchOptionsTop {
+    font-size: .92em;
+    color: #015BA7;
+    vertical-align: middle;
+}
+
+.sidetabsContainer .selectedObjects {
+    margin: 2px 0px 6px;
+}
+
+.sidetabsContainer .searchMoreObjects {
+    margin-top: 2px;
+}   
+
+.sidetabsContainer .leftNavSubHeader .leftNavSubHeaderSeparator,
+.searchAllLink .leftNavSubHeaderSeparator {
+    border-top: 1px dotted #d4dadc;
+    height: 1px;
+    margin-bottom: 5px;    
+}
+
+.sidetabsContainer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidetabsContainer .itemLink {
+    font-size: 1.0em;
+    border-width: 1px;
+    border-color: #E1E1E1;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    line-height: 23px;
+}
+
+.itemLink a, 
+.sidetabsHeader a {
+    color: #015BA7;
+}
+
+/* sidetab items for entities that have no search results (greyed out) */
+.itemLink .noresults {
+    color: #7D7D84;
+}
+
+.itemLink .linkSelector {
+    display: block;
+    width: 182px;
+}
+
+.truncate {
+    float: left;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;    
+}
+
+.searchMoreObjects .notsearched,
+.searchMoreObjectsSlideHidden .notsearched {
+    color: #222;
+    text-decoration: underline;
+}
+
+/* In FFX 4/5, the child SPAN doesn't inherit text-decoratioin:underline from the parent Anchor , have to force it here */
+.searchMoreObjects .notsearched span,
+.searchMoreObjectsSlideHidden .notsearched span{
+	text-decoration: inherit;
+}
+
+.searchMoreObjects .notsearched:hover 
+.searchMoreObjectsSlideHidden .notsearched:hover {
+    color:#015BA7;
+    cursor: pointer;
+}
+ 
+.itemLink a:hover span {
+    text-decoration: underline;
+}
+
+.itemLink .subtoggleon a:hover span {
+    text-decoration: none;
+}
+
+.searchMoreObjectsSlideHidden {
+    display: none;
+}
+
+.sidetabsHeader {
+    background-color: #FFFFDC;
+    border-color: #FCEEB4;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px 10px 10px 1px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 2px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.sidetabsHeader .listHeader .listHeaderText {
+    float: left;
+    width: 110px;    
+    font-weight: bold;
+}
+
+.sidetabsHeader .listHeader .listHeaderEdit a {
+    font-size: .92em;
+}	
+
+.sidetabsHeader .listHeader .listHeaderEdit {
+    text-align: right;
+    float: right;
+    width: 60px;    
+}
+
+.sidetabsHeader li {
+    background: url(/img/search/smallbullet.png) left 6px no-repeat;
+    list-style-type: none;
+    margin-left: 2px;
+    padding-left: 8px;
+    font-size: 1.0em;
+}
+
+.sidetabsHeaderLink {
+    margin-top: 0.5em;
+}
+
+.sidetabsHeader {
+    margin-top: 24px;
+}
+
+.sidetabsHeader .listHeader {
+    margin-left: 8px;
+}
+
+.sidetabsHeader ul {
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 0px;
+    border: none;
+}
+
+.searchResultsSpacer {
+    margin-top: 12px;
+}
+
+.searchResultsBottomButtons {
+    text-align: center;
+}
+
+#searchAllSummaryView {
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.0em;
+    display: inline-block;
+    min-width: 110px;
+    vertical-align: middle;
+    position: relative;
+    font-weight: bold;
+    background: #e8e8e9 url('/img/alohaSkin/btn_sprite.png') repeat-x 0 -180px;
+    border-radius: 3px;
+}
+
+a#searchAllSummaryView:hover {
+    background: #e8e8e9 url('/img/alohaSkin/btn_sprite.png') repeat-x 0 -240px;
+}
+
+#searchAllSummaryView, 
+a#searchAllSummaryView:hover {
+    text-decoration: none;
+}
+
+.sidetabsRefreshLink {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+	
+#secondSearchDiv {
+    margin-top: 10px;
+    height: 24px;
+    position: relative;
+    min-width: 590px;
+}
+
+#secondSearchDiv .search2TextInputContainer {
+    width: 292px;
+    position: absoluate;
+    height: 24px;
+}
+
+#secondSearchText {
+    border: 1px solid #B6B6B6;
+    padding: 3px 5px 3px 5px;
+    width: 280px;
+    font-size: 100%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #969696 inset;
+    height: 16px;
+}
+
+#secondSearchDiv .search2SubmitBtnContainer {
+    border: none;
+    left: 297px;
+    top: 0px;
+    position: absolute; 
+    height: 24px;
+}
+
+#secondSearchButton {
+    height: 24px;
+    margin: 0px;
+    max-width: 400px;
+    float: left;
+}
+
+#secondSearchDiv .search2InfoIconContainer {	
+    margin-left: 4px;
+    width: 16px;
+}
+
+#secondSearchDiv .mouseOverInfo {
+    z-index: 150;
+    text-align: center;
+}
+
+#secondSearchDiv .feedbackLink {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-left: 2em;
+    border: 1px solid #F9C649;
+    -moz-box-shadow: inset 0px 0px 5px #FBDE99;
+    -moz-border-radius: 3px;
+    -webkit-box-shadow: inset 0px 0px 5px #FBDE99;
+    -webkit-border-radius: 3px;
+    box-shadow: inset 0px 0px 5px #FFCC00;
+    padding: 4px 12px;
+    background-color: #FFF8E2;
+}
+
+#secondSearchDiv .feedbackLink a {
+    text-decoration: none;
+    color: #015BA7;
+}
+
+#secondSearchDiv .feedbackLink a:hover {
+    text-decoration: underline;
+}
+
+.summaryRelatedListFooter .pSearchShowMore {
+    text-align: left;
+}
+
+.summaryRelatedListFooter .pSearchShowMore a {
+    font-weight: bold;
+    color: #015BA7;
+    text-decoration:none;
+}
+
+#searchPageHolderDiv {
+    position: relative;
+    clear: both;
+    padding-top: 8px;
+}
+
+#searchingMask {
+    position: absolute;
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('/img/s.gif');
+    opacity: 0;
+}
+
+#searchingMessage {
+    position: absolute;     
+    top: 90px;
+    left: 45%;
+    width: 100px;
+    height: 30px;
+    z-index: 101;
+    display: none;
+}
+
+#searchingMessage span {
+    background: url(/img/loading24.gif) no-repeat left center;
+    padding: 5px 30px;
+    display: block;
+}
+
+.searchLowerMainContent {
+    width: 754px;
+}
+
+.searchCenterContent {
+	width: 541px;
+	vertical-align: top;
+	float: left;
+	overflow: visible;
+}
+
+.bPageTitle .ptBody {
+    overflow: visible;
+}
+
+.smartSearchToggle {
+    display: inline;
+    height: 17px;
+}
+
+/* we have to override span:hover caused by hovers.css. In general, we should not use non-anchor hover as IE7 does not support. */
+#smartSearchToggle span:hover,
+#smartSearchToggle smartSearchOffBtn span:hover, 
+#smartSearchToggle smartSearchOnBtn span:hover {
+    text-decoration: none;
+}
+
+#smartSearchToggle .smartSearchLabel {
+    font-size: 1.0em;
+    color: #222;    
+}
+
+#smartSearchToggle .smartSearchBtnContainer span {
+    color: #fff;  
+}
+
+.smartSearchBtnContainer {
+    display: inline-block;
+    height: 17px;
+    position: relative;
+    top: 3px;    
+    margin-right: 2px;
+}
+
+.smartSearchOnBtn, 
+.smartSearchOffBtn {
+	display: inline-block;
+    height: 15px;    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;    
+    position: relative;
+    top: 1px;
+}
+
+.smartSearchOnOffBtnIconContainer {
+    width: 16px;
+    height: 16px;
+    margin-right: 1px;
+    cursor: pointer;    
+}
+
+.smartSearchBtnIconBgHover {
+    background: transparent url(/img/search/smartsearch/togglebtn_sprite.png) no-repeat 0 -16px;
+}	
+
+.smartSearchOnBtn {
+    border: 1px solid #54b858;
+    background: transparent url(/img/search/smartsearch/greengradiant.png) repeat-x 0 0;
+    padding-left: 2px;    
+}
+
+.smartSearchOnBtnIcon {
+    width: 16px;    
+    height: 16px;
+    top: 0px;    
+}
+
+.smartSearchOnBtnIconBg {
+    background: transparent url(/img/search/smartsearch/togglebtn_sprite.png) no-repeat 0 -32px;
+}
+
+.smartSearchOnBtnIcon, .smartSearchOffBtnIcon{
+    position: relative;
+}
+
+.smartSearchOffBtn {
+    border: 1px solid #9f9f9f;
+    background-color: #818181;
+    padding-right: 2px;
+}
+
+.smartSearchOffBtnIcon {
+    width: 16px;    
+    height: 16px;
+    left: 1px;
+    top: 0px;    
+}
+
+.smartSearchOffBtnIconBg {
+    background: transparent url(/img/search/smartsearch/togglebtn_sprite.png) no-repeat 0 0; 
+}
+
+.smartSearchOffBtnLabel, .smartSearchOnBtnLabel {
+	position: relative;
+	top: -5px;
+}
+
+#smartSearchInfo .mouseOverInfo {
+    width: 300px;
+    text-align: left;
+}
+
+#smartSearchInfo {
+    top: 3px;
+}	
+
+
+

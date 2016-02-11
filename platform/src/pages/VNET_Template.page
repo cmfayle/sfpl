@@ -1,0 +1,5 @@
+<apex:page id="VNET_Template" standardStylesheets="true" showHeader="false" sidebar="false">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    </head>
+</apex:page>

@@ -4,17 +4,11 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="buildSuccessDatesBySourceRootRelativePath">
-            <map>
-              <entry key="OBJECTS/SITE_EQUIPMENT__C.OBJECT" value="1455110618000" />
-              <entry key="PAGES/VNET_HOME.PAGE" value="1455115665000" />
-            </map>
-          </option>
           <option name="defaultModuleName" value="platform" />
           <option name="lastBuildScope" value="CUSTOM" />
           <option name="lastCustomSelectionUrls">
             <set>
-              <option value="file://$PROJECT_DIR$/platform/src/staticresources/webapp" />
+              <option value="file://$PROJECT_DIR$/platform/src/staticresources/VNET.resource" />
             </set>
           </option>
           <option name="lastMetadataTypeNames">
