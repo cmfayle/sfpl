@@ -1,0 +1,6 @@
+<!--
+ - Created by fayle on 2/15/2016.
+ -->
+
+<apex:page id="VNET_SearchAVL" showHeader="false" sidebar="false" title="Search Sites" controller="VNET_SearchAVLController">
+</apex:page>

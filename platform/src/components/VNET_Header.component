@@ -1,0 +1,83 @@
+<!--
+ - Created by fayle on 2/11/2016.
+ -->
+
+<apex:component id="VNET_Header" access="global" allowDML="true">
+    <style type="text/css">
+        nav {
+            background-color:#2C5463;
+            height:40px;
+        }
+        nav div {
+            background-color:#2C5463;
+            height:40px;
+        }
+        nav ul {
+            font-family: Arial, Verdana;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: block;
+            position: relative;
+            float: left;
+
+        }
+        nav li ul {
+            display: none;
+        }
+        nav ul li a {
+            display: block;
+            text-decoration: none;
+            padding: 5px 10px 5px 10px;
+            background: #2C5463;
+            color: #ffffff;
+            margin-left: 1px;
+            white-space: nowrap;
+            height:30px;
+            width:150px;
+            text-align:center;
+
+        }
+        nav ul li a:hover {
+            background: #617F8A;
+        }
+        nav li:hover ul {
+            display: block;
+            position: absolute;
+            height:30px;
+        }
+        nav li:hover li {
+            float: none;
+            font-size: 11px;
+        }
+        nav li:hover a {
+            background: #3A464F;
+            height:30px;
+        }
+        nav li:hover li a:hover {
+            background: #95A9B1;
+        }
+        nav ul li ul li a {
+            text-align:left;
+        }
+    </style>
+    <div style="height: 100px; width: 100%; background-color: #C0C0C0;">
+        <div style="width: 75%; height: 100%; line-height: 100px; float: left; text-align: left; display: table;">
+            <a href="/"><apex:image value="{!URLFOR($Resource.VNET, 'images/WellsFargoLarge.png')}" style="float: left; margin-right: 10px;"/></a>
+            <apex:outputText value="Video Network" style="font-size: 36px; font-weight: bold; color: #FFFFFF; float: left; display: table-cell; vertical-align: middle;"/>
+        </div>
+    </div>
+    <apex:outputPanel layout="block" >
+        <nav>
+            <div>
+                <ul>
+                    <apex:outputPanel><li><apex:outputLink value="{!$Page.VNET_Home}">Home</apex:outputLink></li></apex:outputPanel>
+                    <apex:outputPanel><li><apex:outputLink value="{!$Page.VNET_SearchAVL}">Search Locations</apex:outputLink></li></apex:outputPanel>
+                </ul>
+            </div>
+        </nav>
+    </apex:outputPanel>
+</apex:component>

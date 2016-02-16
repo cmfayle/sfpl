@@ -1,3 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>VNET_LandingPageMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VNET_LandingPageMessage</shortDescription>
+        <value>&lt;p&gt;
+            Wells Fargo Request Center for:
+            &lt;ul&gt;
+            &lt;li&gt;Satellite Television&lt;/li&gt;
+            &lt;li&gt;Digital Signage&lt;/li&gt;
+            &lt;li&gt;Foreign Exchange Rate Board&lt;/li&gt;
+            &lt;li&gt;Media Services&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>VNET_LandingPageTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VNET_LandingPageTitle</shortDescription>
+        <value>Wells Fargo Request Center</value>
+    </labels>
+</CustomLabels>

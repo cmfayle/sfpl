@@ -1,5 +1,27 @@
+<!--
+ - Created by fayle on 2/11/2016.
+ -->
+
 <apex:page id="VNET_Template" standardStylesheets="true" showHeader="false" sidebar="false">
     <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <apex:stylesheet value="{!URLFOR($Resource.VNET, 'css/WellsFargo.css')}"/>
+        <apex:stylesheet value="{!URLFOR($Resource.VNET, 'table/table.css')}"/>
     </head>
+    <apex:includeScript value="{!URLFOR($Resource.VNET, 'JavaScriptToolBox/tablecompact.js')}"/>
+    <div style="width: 80%; margin-left: auto; margin-right: auto; margin-top: 20px;">
+        <div id="VNET_TemplateHeader"  style="width:100%; clear: both; float: left;">
+            <apex:insert name="header">
+                <c:VNET_Header />
+            </apex:insert>
+        </div>
+        <div id="VNET_TemplateBody" style="width:100%; clear: both; float: left;">
+            <apex:insert name="body"/>
+        </div>
+        <div id="VNET_TemplateFooter" style="width:100%; clear: both; float: left;">
+            <apex:insert name="footer">
+                <c:VNET_Footer />
+            </apex:insert>
+        </div>
+    </div>
 </apex:page>

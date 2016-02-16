@@ -1,0 +1,46 @@
+<!--
+ - Created by fayle on 2/12/2016.
+ -->
+
+<apex:page id="VNET_SiteOrders" showHeader="false" sidebar="false" title="Site Data and Orders" controller="VNET_SiteOrdersController">
+    <apex:form>
+        <apex:pageBlock id="siteData" title="Site Data" mode="detail">
+            <apex:pageBlockSection id="siteFields" title="Site Fields" showHeader="true" columns="1">
+                <apex:outputField value="{!site.BE__c}"/>
+                <apex:outputField value="{!site.Name}"/>
+                <apex:outputField value="{!site.Site_Identifier__c}"/>
+                <apex:outputField value="{!site.ShippingStreet}"/>
+                <apex:outputField value="{!site.ShippingCity}"/>
+                <apex:outputField value="{!site.ShippingState}"/>
+                <apex:outputField value="{!site.ShippingPostalCode}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons>
+                <apex:commandButton id="searchOrders" value="Orders" action="{!searchOrders}"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection  columns="1">
+                <apex:outputLink title="Return to site search." value="{!$Page.VNET_SearchSites}">
+                    <apex:outputText value="Return to site search."/>
+                </apex:outputLink>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:pageBlock id="siteOrders" title="Site Orders" mode="detail">
+            <apex:pageBlockTable id="ordersTable" value="{!orders}" var="order" rendered="{!orders.size > 0}">
+                <apex:column headerValue="{!$ObjectType.Opportunity.fields.Name.label}">
+                    <apex:outputField value="{!order.Name}" />
+                </apex:column>
+                <!-- <apex:column headerValue="{!$ObjectType.Project__c.fields.Name.label}">
+                    <apex:outputField value="{!order.Project__r.Name}" />
+                </apex:column> -->
+                <apex:column headerValue="{!$ObjectType.Opportunity.fields.Request_Name__c.label}">
+                    <apex:outputField value="{!order.Request_Name__c}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Opportunity.fields.Site_AU__c.label}">
+                    <apex:outputField value="{!order.Site_AU__c}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Opportunity.fields.Store_AU__c.label}">
+                    <apex:outputField value="{!order.Store_AU__c}" />
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

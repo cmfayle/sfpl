@@ -1,0 +1,53 @@
+<!--
+ - Created by fayle on 2/12/2016.
+ -->
+
+<apex:page id="VNET_SearchSites" showHeader="false" sidebar="false" title="Search Sites" controller="VNET_SearchSitesController">
+    <apex:form>
+        <apex:pageBlock id="siteSearch" title="Site Search" mode="edit">
+            <apex:pageBlockSection id="searchData" title="Search Data" showHeader="true" columns="1">
+                <!-- <apex:inputField value="{!searchData.BE__c}"/>
+                <apex:inputField value="{!searchData.Name}"/>
+                <apex:inputField value="{!searchData.Site_Identifier__c}"/> -->
+                <apex:inputField value="{!searchData.ShippingStreet}"/>
+                <apex:inputField value="{!searchData.ShippingCity}"/>
+                <apex:inputField value="{!searchData.ShippingState}"/>
+                <apex:inputField value="{!searchData.ShippingPostalCode}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons>
+                <apex:commandButton id="executeSearch" value="Search" action="{!searchSites}"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:pageBlock id="searchResults" title="Search Results" mode="edit">
+            <apex:pageBlockTable id="resultsTable" value="{!searchResults}" var="site" rendered="{!searchResults.size > 0}">
+                <apex:column headerValue="Select Site">
+                    <apex:outputLink title="Select site details." value="{!$Page.VNET_SiteOrders}">
+                        <apex:outputText value="Select site details."/>
+                        <apex:param name="siteId" value="{!site.Id}"/>
+                    </apex:outputLink>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Account.fields.BE__c.label}">
+                    <apex:outputField value="{!site.BE__c}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Account.fields.Name.label}">
+                    <apex:outputField value="{!site.Name}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Account.fields.Site_Identifier__c.label}">
+                    <apex:outputField value="{!site.Site_Identifier__c}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Account.fields.ShippingStreet.label}">
+                    <apex:outputField value="{!site.ShippingStreet}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Account.fields.ShippingCity.label}">
+                    <apex:outputField value="{!site.ShippingCity}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Account.fields.ShippingState.label}">
+                    <apex:outputField value="{!site.ShippingState}" />
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.Account.fields.ShippingPostalCode.label}">
+                    <apex:outputField value="{!site.ShippingPostalCode}" />
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

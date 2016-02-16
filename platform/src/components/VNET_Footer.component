@@ -1,0 +1,10 @@
+<!--
+ - Created by fayle on 2/11/2016.
+ -->
+
+<apex:component id="VNET_Footer">
+    <div style="width: 100%; margin: 20px; text-align: center; clear: both;">
+        <hr/>
+        <apex:outputLabel style="font-size: 10px;" value="Please note: This application is best viewed by Google Chrome Version 48.0.2564.109 m or Internet Explorer Version 11.103.10586.0."/>
+    </div>
+</apex:component>

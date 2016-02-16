@@ -139,33 +139,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="HelloWorld" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="HelloWorldTestClass" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="InvoiceUtilities" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="MerchandiseException" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="MerchandiseOperations" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="MerchandiseUtility" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="MessageMaker" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="MyApexClassTest" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="MyHelloWorld" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="MyProfilePageController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -190,12 +163,20 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="TestDeleteRestrictInvoice" />
+                            <option name="name" value="VNET_SearchAVL" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_SearchSitesController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_SiteOrdersController" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -274,6 +255,14 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SitePoweredBy" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_Footer" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_Header" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -356,10 +345,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="CountSheet" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Exception" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -435,24 +420,35 @@
                             <option name="name" value="UnderConstruction" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_Home" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_OrderRequest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_SearchAVL" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_SearchSites" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_SiteOrders" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_Template" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexPage" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="DeleteRestrictInvoice" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="HelloWorldTrigger" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="MyCoolTrigger" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="ApexTrigger" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -471,22 +467,12 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Approve_Unit_Price_Change" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="ApprovalProcess" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
-                          <MetadataEntry>
-                            <option name="name" value="Case.Standard" />
-                          </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.Standard" />
                           </MetadataEntry>
@@ -562,7 +548,10 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
-                            <option name="name" value="Merchandise__c.Merchandise_Compact_Layout" />
+                            <option name="name" value="Account.Account_Compact_Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.New_Awesome_Companct_Layout" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -587,9 +576,6 @@
                     <MetadataType>
                       <option name="entries">
                         <list>
-                          <MetadataEntry>
-                            <option name="name" value="Warehouse" />
-                          </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard__AppLauncher" />
                           </MetadataEntry>
@@ -640,31 +626,187 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
-                            <option name="name" value="Account.Active__c" />
+                            <option name="name" value="Account.Asbestos__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.CustomerPriority__c" />
+                            <option name="name" value="Account.BE__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.NumberofLocations__c" />
+                            <option name="name" value="Account.Building_Description__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.SLAExpirationDate__c" />
+                            <option name="name" value="Account.Building__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.SLASerialNumber__c" />
+                            <option name="name" value="Account.Business_Line__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.SLA__c" />
+                            <option name="name" value="Account.CPG_Condition__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.Subcategories__c" />
+                            <option name="name" value="Account.CPG_Status__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.UpsellOpportunity__c" />
+                            <option name="name" value="Account.Complex_Site_Record__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Book__c.Price__c" />
+                            <option name="name" value="Account.County__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Dish_Network_Receivers__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Email__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Entity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.FX_Store__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Function_LOB__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.IPT_Migration_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.IPT_Scheduled_Migration_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.IPT_TDM_Data_Carrier__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.IPT_TDM_Site_Type__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.IP_Telephony_VoIP__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Initial_FX_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Internal_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.LOB_Floor_Plan_Layout_Attachment_on_File__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.LOB_at_Site__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Land_or_Building_Square_Footage__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Legacy_Corp__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.MAC_Address__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Miscellaneous_Building_Details__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Multiple_BE_s__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Non_Wells_Fargo_Content_Info__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Non_Wells_Fargo__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Number_of_Floors__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.PID__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Primary_Au__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Proposed_FX_Install_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Region_Division__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Region_Main__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Region_Market__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Region_Sub__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.SAP_BU_PR_Type__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.SAP_Primary_LOB__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Service_Status__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Site_Backdoor_Phone__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Site_Identifier__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Store_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Store_Loc__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Store_Type__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Sub_Contractors__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Super_Region__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Time_Zone__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Urgent_Site_Info_Expires__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Urgent_Site_Info__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.Vnet_Site_ID__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.WFA_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Content_Delivery_Platform__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Descriptor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Floor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Red_Quote_Marketing_Panel__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Room_Area_Type__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Room_Name_Number__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Site__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c.Updated_As_Of__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CPQTemplateSection__c.CPQ_PDF_Template__c" />
@@ -709,10 +851,181 @@
                             <option name="name" value="Case.SLAViolation__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Contact.Languages__c" />
+                            <option name="name" value="Contact.Alternate_Phone__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Contact.Level__c" />
+                            <option name="name" value="Contact.Site_Contact_Idenifier__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Contact.Site_Contact_Info__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Contact.Site_Contact_MAC_Address__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Contact.Type_of_Contact_Specifics__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Contact.Type_of_Contact__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Contact.Vendor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.CSG_1__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.CSG_2__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.CSG_3__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.CSG_4__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.CSG_5__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.CSG_6__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Chinese_Track__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Commercial_Channels__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Commercial_Package__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Complex_Distribution__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.DS_Customer_Channel__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.DS_Directory_Wayfinding__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.DS_WFCC_Espanol__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.DS_WF_Internal__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.DS_Welcome_Wall_Content__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Equip_Only__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.FX__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.HD__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Head_End__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Hispanic_Track__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.IP_Ready__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Initial_Service_Install_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.List_Head_End_Channels__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Local_Channels__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.MOH_DVD_Loop__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.MOH_Multi__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.MOH__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Mail_Updates_To__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Music_DVD_Loop__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Music__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Number_of_Receivers__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Out_of_Scope_Status__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.PC_Receiver_Card__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Receivers_On_Site__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.SD__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.STM_Enhanced_ATM__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Screenfeed_LGBT__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Screenfeed_Local__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Screenfeed_National__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Screenfeed_Spanish__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Servicing_Vendor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Site__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Status__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Stocks__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Student_Track__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Sustainability__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.TV_Monitor_Only__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Team_TV__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.WFA__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.WFCC_DVD_Loop__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.WFCC_Espanol__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.WFCC__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DT_0_0_Object__c.DT_0_0_Field_A__c" />
@@ -772,13 +1085,64 @@
                             <option name="name" value="DT_1_2_Object__c.DT_1_2_Field_D__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.BE__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.CSG__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.City__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Connected_On__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Date_Received__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Model__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Postal_Code__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Receiver_ID__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Smart_Card_ID__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.State__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Street_Address__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Vnet_Site_ID__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c.Vnet_Site__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Goal.OrigGoalId__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c.Invoice_Total__c" />
+                            <option name="name" value="Invoice_PO__c.Additional_Information__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c.Status__c" />
+                            <option name="name" value="Invoice_PO__c.Amount__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Invoice_PO__c.Type__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Invoice_PO__c.VNet_Order__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Invoice_PO__c.Vendor_Invoice_PO__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Invoice_PO__c.Vendor__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.CurrentGenerators__c" />
@@ -796,55 +1160,124 @@
                             <option name="name" value="Lead.SICCode__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Invoice__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Line_Item_Total__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Merchandise__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Quantity__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Unit_Price__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c.Price__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c.Quantity__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Metric.OrigMetricId__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Additional_Information__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Annualized_Cost__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Opportunity.CurrentGenerators__c" />
+                            <option name="name" value="Opportunity.Billing_Number_Type__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Billing_Number__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Budget_Confirmed__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.CPG_Contact__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.CPG_Project_Manager_Email__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.CPG_Project_Manager_Phone__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.CPG_Project_Manager__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Cat_5_Cable_Complete_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Completed_Install__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Construction_Complete_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.DENOVO__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Deal_Type__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Opportunity.DeliveryInstallationStatus__c" />
+                            <option name="name" value="Opportunity.Depot_Billing_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Depot_PC_Model__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Depot_Requestor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Depot_Shipping_Method__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Discovery_Completed__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Electrical_Completion_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Electrical_WO__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Equipment_Order_Date_Depot__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Equipment_Shipped_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.General_Contractor_Email__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.General_Contractor_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.General_Contractor_Phone__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Go_Live_Date__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Opportunity.Grand_Opening_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Opportunity.Include_Descriptions__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Opportunity.MainCompetitors__c" />
+                            <option name="name" value="Opportunity.LOB__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Loss_Reason__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.MAC_Address__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Name_Vendor__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Number_of_Pays__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Opportunity.OrderNumber__c" />
+                            <option name="name" value="Opportunity.Onsite_Contact_Email__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Onsite_Contact_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Onsite_Contact_Phone__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Order_Identifier__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Order__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Pay_Frequency__c" />
@@ -853,7 +1286,118 @@
                             <option name="name" value="Opportunity.Per_Payroll_Roll_up__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Opportunity.TrackingNumber__c" />
+                            <option name="name" value="Opportunity.Player_Code_Depot__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Player_Install_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Player_Installed__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Player_Tracking__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Project__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.ROI_Analysis_Completed__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Ready_for_Installation__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Refresh__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Relocation__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Remodel__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Request_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Requested_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Requested_Delivery_Date_Depot__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Return_Player_Tracking__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Return_Scheduled_Date_If_Needed__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Scheduled_Install_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Scheduled_Site_Survey_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.SharePoint_Order__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Ship_Contact_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Ship_To_City__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Ship_To_State__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Ship_To_Street_Address__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Ship_To_Zip_Postal_Code__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Ship_To__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Shipping_Method_Requested__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Site_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Special_Instructions_ISO__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Status_Change_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Status_Notes__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Store_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Type_of_Order__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.VNet_Notes__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Vendor_Comments__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Vendor_Next_Step_Note__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Vendor_Next_Steps_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Vendor_Staff_Assigned__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Vendor_SubContracts__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Vendor_Work_Order__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="OpportunityLineItem.Annualized_Total__c" />
@@ -871,10 +1415,40 @@
                             <option name="name" value="Product2.Category__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Product2.Equipment_Size__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Equipment_Technology__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.FWI_Player_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Product2.Frequency__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Product2.Install_Vendor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Maint_Duration_Years__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Maint_End_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Manufacturer__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Model__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Product2.Per_Payroll_Cost__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Player_AU_to_Charge__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Product2.Serial__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Product_Bundle__c.Active__c" />
@@ -895,6 +1469,204 @@
                             <option name="name" value="Product_Junction__c.Product__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Project__c.Billing_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Project__c.Date_of_Completion__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Project__c.Request_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Project__c.Request_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Project__c.Status__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Project__c.Type_of_Store__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Project__c.Vendor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote.Active__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote.Proposed_Execution__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote.Vendor_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Additional_Memory__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Additional_hard_drive_Enter_quantity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Alt_Site_Contact_Phone__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.DMS_Cosmic_Record_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.DMS_or_Cosmic_Image__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.DP_to_DVI_adaptor_Enter_quantity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Deployment_Mgr__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Depot_Report_VNet_Order__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Docking_station_Enter_quantity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Domain__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.EUC_Coordinator_PM_Email__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Equipment_Order_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Equipment_Order_SR__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Invoice_Number__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Keyboard_Enter_Quantity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.LAN_ID__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Laptop_Desktop_Accessories__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Line_of_Business__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Location_of_Computer_Cube__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Machine_OU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Manual_Apps_Package_Included__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Master_Project_SR__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Migration_Coordinator_DMS_Record_Contact__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Monitor_Enter_Quantity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Mouse_Enter_Quantity__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Old_Computer_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Old_Serial__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Owner_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.PC_Model__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.PO_Number__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Player_Code_Depot__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Requested_Delivery_Date__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Requested_Shipping_Method__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Residential_Y_N__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Ship_Contact_Name__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Ship_To_Address__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Ship_To_City__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Ship_To_MAC_Code__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Ship_To_Phone_Number__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Ship_To_ST__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Ship_To_Zip__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Shipping_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Special_Instructions_ISO__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Stamp_ID__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Total_Memory_Gb_Enter_Amount__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.User_AU__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.WFDC_version__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c.Win7_Readiness_verified_Y_N__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c.Contact_Level__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c.Contact__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c.Price_Email__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c.Primary_Phone__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c.Site__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c.Type_of_Contact__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Equipment__c.Equipment__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Equipment__c.Site__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="User.VNET_Force_Password_Reset__c" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -906,12 +1678,46 @@
                           <MetadataEntry>
                             <option name="name" value="User.VNET_User_Type__c" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Parent_Vendor__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Physical_City__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Physical_State__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Physical_Street__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Physical_Zip_Postal_Code__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Vendor_Email__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Vendor_Fax__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c.Vendor_Phone__c" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="CustomField" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_LandingPageMessage" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="VNET_LandingPageTitle" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="CustomLabel" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -935,6 +1741,7 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Account" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="AccountCleanInfo" />
@@ -949,7 +1756,11 @@
                             <option name="name" value="Asset" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Book__c" />
+                            <option name="name" value="AssistantProgress" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CPQTemplateSection__c" />
@@ -977,12 +1788,17 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ContactCleanInfo" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ContentVersion" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract" />
@@ -1010,6 +1826,10 @@
                             <option name="name" value="DandBCompany" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="DuplicateRecordItem" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1028,16 +1848,14 @@
                             <option name="name" value="Idea" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c" />
+                            <option name="name" value="Invoice_PO__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="LeadCleanInfo" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Macro" />
@@ -1047,9 +1865,6 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="MacroInstruction" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity" />
@@ -1081,6 +1896,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Product2" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Product_Bundle__c" />
@@ -1091,13 +1907,30 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Project__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Quote" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="QuoteLineItem" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Site" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Equipment__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SocialPersona" />
@@ -1119,18 +1952,18 @@
                             <option name="name" value="UserProvisioningRequest" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="User__c" />
+                            <option name="name" value="Vendors__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="CustomObject" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
-                            <option name="name" value="Book__c-en_US" />
+                            <option name="name" value="Audio_Video_Location__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CPQTemplateSection__c-en_US" />
@@ -1140,6 +1973,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CPQ_PDF_Generator_Configuration__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="DT_0_0_Object__c-en_US" />
@@ -1154,13 +1990,10 @@
                             <option name="name" value="DT_1_2_Object__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c-en_US" />
+                            <option name="name" value="Dish_Network_Receiver__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Line_Item__c-en_US" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c-en_US" />
+                            <option name="name" value="Invoice_PO__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Product_Bundle__c-en_US" />
@@ -1169,7 +2002,19 @@
                             <option name="name" value="Product_Junction__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="User__c-en_US" />
+                            <option name="name" value="Project__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Equipment__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Vendors__c-en_US" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1196,19 +2041,6 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Invoice__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="CustomTab" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -1301,13 +2133,6 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Case.Standard" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="EscalationRule" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -1350,24 +2175,10 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Add_Line_Item_from_Invoice_and_Update_Stock_Quantity-1" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="Flow" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Add_Line_Item_from_Invoice_and_Update_Stock_Quantity" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="FlowDefinition" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -1426,7 +2237,7 @@
                             <option name="name" value="Asset-Asset Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Book__c-Book Layout" />
+                            <option name="name" value="Audio_Video_Location__c-Audio Video Location Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CPQTemplateSection__c-CPQ PDF Template Section Layout" />
@@ -1477,6 +2288,9 @@
                             <option name="name" value="ContentVersion-General" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c-Content Delivery Platform Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Contract-Contract Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1495,6 +2309,9 @@
                             <option name="name" value="DandBCompany-D%26B Company Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c-Dish Network Receiver Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="DuplicateRecordSet-Duplicate Record Set Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1510,7 +2327,7 @@
                             <option name="name" value="Idea-Idea Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c-Invoice Layout" />
+                            <option name="name" value="Invoice_PO__c-Invoice%2FPO Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead-Lead %28Marketing%29 Layout" />
@@ -1525,13 +2342,7 @@
                             <option name="name" value="Lead-Lead Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Line_Item__c-Line Item Layout" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Macro-Macro Layout" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c-Merchandise Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity-Opportunity %28Marketing%29 Layout" />
@@ -1572,10 +2383,22 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Project__c-Project Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Quote-Quote Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="QuoteLineItem-Quote Line Item Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c-Report To Depot Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c-Site Contact Affiliation Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Equipment__c-Site Equipment Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SocialPersona-Social Persona Layout" />
@@ -1596,7 +2419,7 @@
                             <option name="name" value="UserAlt-User Profile Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="User__c-User Layout" />
+                            <option name="name" value="Vendors__c-Vendor Layout" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1706,9 +2529,6 @@
                             <option name="name" value="Idea.Ideas_Last_7_Days" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c.All" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Lead.AllOpenLeads" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1724,12 +2544,6 @@
                             <option name="name" value="Lead.ViewCustom2" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Line_Item__c.All" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c.All" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Opportunity.AllOpportunities" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1737,6 +2551,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.ClosingThisMonth" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Opportunity.Default_Opportunity_Pipeline" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.MyOpportunities" />
@@ -1776,6 +2593,9 @@
                           <MetadataEntry>
                             <option name="name" value="Product_Bundle__c.All1" />
                             <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Project__c.All" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Solution.AllReviewedSolutions" />
@@ -1990,9 +2810,6 @@
                             <option name="name" value="StandardAul" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Warehouse App User" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Work%2Ecom Only User" />
                           </MetadataEntry>
                         </list>
@@ -2053,9 +2870,6 @@
                             <option name="name" value="NewTask" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="New_Merch" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Task.Defer" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2075,6 +2889,22 @@
                     <MetadataType>
                       <option name="entries">
                         <list>
+                          <MetadataEntry>
+                            <option name="name" value="Account.SIte" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Digital_Signage" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Media_Services" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c.Satellite" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Metric.Completion" />
                             <option name="selected" value="true" />
@@ -2301,7 +3131,7 @@
                             <option name="name" value="Asset" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Book__c" />
+                            <option name="name" value="Audio_Video_Location__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CPQTemplate__c" />
@@ -2322,13 +3152,10 @@
                             <option name="name" value="DT_0_0_Object__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c" />
+                            <option name="name" value="Invoice_PO__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity" />
@@ -2343,10 +3170,22 @@
                             <option name="name" value="Product_Junction__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Project__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Equipment__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="User" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="User__c" />
+                            <option name="name" value="Vendors__c" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -2393,6 +3232,14 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="VNET" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="WellsFargoSmall" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="styles" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -2413,13 +3260,6 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Validate_Quantity" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="ValidationRule" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -2430,19 +3270,25 @@
                             <option name="name" value="Account.Billing" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Account.GoogleMaps" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.GoogleNews" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Account.GoogleSearch" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Campaign.ViewCampaignInfluenceReport" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case.UpsellCrosssellOpportunity" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c.Renumber_Line_Items" />
+                            <option name="name" value="Contact.GoogleMaps" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Add_Line_Item_and_Update_Stock_Qty" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Opportunity.DeliveryStatus" />
+                            <option name="name" value="Contact.GoogleSearch" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -2459,7 +3305,10 @@
                             <option name="name" value="Asset" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Book__c" />
+                            <option name="name" value="AssistantProgress" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Audio_Video_Location__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CPQTemplateSection__c" />
@@ -2483,6 +3332,9 @@
                             <option name="name" value="Contact" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Content_Delivery_Platform__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Contract" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2501,6 +3353,9 @@
                             <option name="name" value="DandBCompany" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Dish_Network_Receiver__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="DuplicateRecordItem" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2516,13 +3371,10 @@
                             <option name="name" value="Idea" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Invoice__c" />
+                            <option name="name" value="Invoice_PO__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Macro" />
@@ -2532,9 +3384,6 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="MacroInstruction" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Merchandise__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity" />
@@ -2561,13 +3410,25 @@
                             <option name="name" value="Product_Junction__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Project__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Quote" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="QuoteLineItem" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Report_To_Depot__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Site" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Contact_Affiliation__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Site_Equipment__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SocialPersona" />
@@ -2591,7 +3452,7 @@
                             <option name="name" value="UserProvisioningRequest" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="User__c" />
+                            <option name="name" value="Vendors__c" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -2603,19 +3464,6 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Copy_Unit_Price" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Reset_Price" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Update_Stock_Inventory" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="WorkflowFieldUpdate" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -2628,16 +3476,6 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
-                      <option name="entries">
-                        <list>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Line Item Updated" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Line_Item__c.Populate Unit Price" />
-                          </MetadataEntry>
-                        </list>
-                      </option>
                       <option name="name" value="WorkflowRule" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -2655,7 +3493,6 @@
             </option>
           </ModuleContents>
         </option>
-        <option name="packageName" value="" />
       </configuration>
     </facet>
   </component>

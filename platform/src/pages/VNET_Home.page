@@ -1,6 +1,12 @@
-<!--
- - Created by fayle on 2/10/2016.
- -->
-
-<apex:page id="VNET_Home">
+<apex:page id="VNET_Home" showHeader="false" sidebar="false" title="Home">
+    <apex:composition template="{!$Page.VNET_Template}">
+        <apex:define name="body">
+            <apex:includeScript value="{!URLFOR($Resource.webapp, 'jquery/jquery.min.js')}"></apex:includeScript>
+            <apex:form>
+                <div>
+                    <apex:pageMessages id="error"/>
+                </div>
+            </apex:form>
+        </apex:define>
+    </apex:composition>
 </apex:page>
